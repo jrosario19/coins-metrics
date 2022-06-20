@@ -1,8 +1,6 @@
-
 import getCriptoCoins from './CriptoCoinsApi';
 
-
-const FETCH_COINS = 'coins-metrics/metrics/GET_COINS';
+const FETCH_COINS = 'coins-metrics/metrics/FETCH_COINS';
 const initialState = [];
 
 const reducer = (state = initialState, action) => {
@@ -11,7 +9,7 @@ const reducer = (state = initialState, action) => {
       return action.payload.map((coins) => ({
 
         ...coins,
-        
+
       }));
 
     default:
@@ -19,9 +17,7 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-
-
-export const getCriptoCoins = () => async (dispatch) => {
+export const fetchCriptoCoins = () => async (dispatch) => {
   const coins = await getCriptoCoins();
 
   dispatch({ type: FETCH_COINS, payload: coins });
