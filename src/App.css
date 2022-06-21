@@ -157,7 +157,7 @@ li:nth-child(10) {
 
   .metadata-container {
     align-self: flex-end;
-    margin-right: 150px;
+    margin-right: 250px;
   }
 
   .column-container-details {
@@ -168,5 +168,7 @@ li:nth-child(10) {
   }
 
   .criptocoin-img-details {
-    
+    width: 30vw;
+    margin: 0.5em;
+    padding: 0.25em 0;
   }
