@@ -7,3 +7,58 @@ font-family: 'Titillium Web', sans-serif; */
   display: flex;
   flex-wrap: wrap;
 }
+
+.container-input {
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 120px;
+  }
+
+  .input-field {
+    width: 90vw;
+    height: 2em;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: column;
+    width: 47vw;
+    align-items: center;
+  }
+
+  .criptocoin-container {
+    display: flex;
+  }
+
+  .criptocoin-img {
+    width: 35vw;
+    margin: 0.5em;
+    padding: 0.25em 0;
+  }
+
+  .criptocoin-button {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #4369b2;
+    border: solid 1px #fff;
+    color: #fff;
+    margin-top: 1em;
+  }
+
+  .title-field {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-right: 0.5em;
+    text-align: right;
+  }

@@ -1,6 +1,7 @@
 import { HiOutlineMicrophone } from 'react-icons/hi';
 import { IoIosArrowBack, IoIosSettings } from 'react-icons/io';
 import { Link, useNavigate } from 'react-router-dom';
+import '../styles/NavBar.scss';
 
 const NavBar = () => {
   const navigate = useNavigate();
