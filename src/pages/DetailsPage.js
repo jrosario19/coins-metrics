@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect } from 'react';
-import { getCoins } from '../redux/CriptoCoins/CriptoCoins';
+import { fetchCriptoCoins } from '../redux/CriptoCoins/CriptoCoins';
 
 const DetailsPage = () => {
   let criptocoin;
@@ -11,7 +11,7 @@ const DetailsPage = () => {
 
   useEffect(() => {
     if (!criptocoins.length) {
-      dispatch(getCoins());
+      dispatch(fetchCriptoCoins());
     }
   }, [dispatch]);
 
