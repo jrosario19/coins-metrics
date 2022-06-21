@@ -1,6 +1,6 @@
 import getCriptoCoins from './CriptoCoinsApi';
 
-const FETCH_COINS = 'coins-metrics/metrics/FETCH_COINS';
+const FETCH_COINS = 'criptocoins-metrics/metrics/FETCH_COINS';
 const initialState = [];
 
 const reducer = (state = initialState, action) => {
