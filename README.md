@@ -6,7 +6,7 @@ In this App you can track updated Cripto Coins Metrics.
 - CSS3
 
 ## Live Demo (if available)
-
+[Netlify](https://celebrated-brigadeiros-3e557f.netlify.app/)
 
 ## Getting Started
 To get started and get a local copy of this project, follow the next intructions:
