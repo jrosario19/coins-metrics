@@ -5,9 +5,6 @@ import { render } from '@testing-library/react';
 import DetailsPage from '../pages/DetailsPage';
 import store from '../redux/configureStore';
 import HomePage from '../pages/HomePage';
-import { it } from 'mocha';
-
-
 
 describe('Renders pages precisely', () => {
   it('Renders Homepage  precisely', () => {

@@ -7,10 +7,9 @@ describe('Cripto Coins Reducer tests', () => {
 
   it('Handle FETCH_COINS', () => {
     expect(
-        criptoCoinsReducer(undefined, {
+      criptoCoinsReducer(undefined, {
         type: 'FETCH_COINS',
       }),
     ).toBeTruthy();
   });
 });
-
