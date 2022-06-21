@@ -5,11 +5,15 @@ import { fetchCriptoCoins } from '../redux/CriptoCoins/CriptoCoins';
 
 const CriptoCoinsList = () => {
   const [search, setSearch] = useState('');
+
   const dispatch = useDispatch();
+
   const criptocoins = useSelector((state) => state.criptocoins);
 
   useEffect(() => {
-    if (!criptocoins.lenght) dispatch(fetchCriptoCoins());
+    if (!criptocoins.lenght) {
+      dispatch(fetchCriptoCoins());
+    }
   }, [dispatch]);
 
   const filteredCoins = criptocoins.filter((criptocoin) => criptocoin.name
