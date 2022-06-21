@@ -5,11 +5,12 @@ import { render } from '@testing-library/react';
 import DetailsPage from '../pages/DetailsPage';
 import store from '../redux/configureStore';
 import HomePage from '../pages/HomePage';
+import { it } from 'mocha';
 
 
 
 describe('Renders pages precisely', () => {
-  test('Renders Homepage  precisely', () => {
+  it('Renders Homepage  precisely', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
@@ -28,7 +29,7 @@ describe('Renders pages precisely', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Renders Detailspage  precisely', () => {
+  it('Renders Detailspage  precisely', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
