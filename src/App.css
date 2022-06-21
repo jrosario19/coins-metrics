@@ -31,7 +31,7 @@ font-family: 'Titillium Web', sans-serif; */
   .column-container {
     display: flex;
     flex-direction: column;
-    width: 47vw;
+    width: 49.39vw;
     align-items: center;
   }
 
@@ -61,4 +61,112 @@ font-family: 'Titillium Web', sans-serif; */
     font-size: 1.5em;
     padding-right: 0.5em;
     text-align: right;
+  }
+
+  .criptocoin-symbol-field {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    padding-right: 1em;
+    text-align: right;
+  }
+
+  .column-container-metadata {
+    display: flex;
+    flex-direction: column;
+    width: 47vw;
+  }
+
+  li:nth-child(1),
+li:nth-child(4),
+li:nth-child(5),
+li:nth-child(8),
+li:nth-child(9) {
+  background-color: #3d60a2;
+}
+
+li:nth-child(2),
+li:nth-child(3),
+li:nth-child(6),
+li:nth-child(7),
+li:nth-child(10) {
+  background-color: #4268af;
+}
+
+.criptocoin-container-detail {
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .details-headline {
+    margin-top: 120px;
+    font-size: 35px;
+  }
+
+  .details-name {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 2.2em;
+    padding-left: 0.5em;
+  }
+
+  .name-data {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+
+  .details-name1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 2.2em;
+    padding-left: 0.5em;
+    align-self: flex-end;
+  }
+
+  .name-data1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    align-self: flex-end;
+  }
+
+  .price-up {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    margin-left: 0.5em;
+    color: #00ff27;
+    font-size: 1.5em;
+  }
+
+  .price-down {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    margin-left: 0.5em;
+    color: #f00;
+    font-size: 1.5em;
+  }
+
+  .column-container-price {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metadata-container {
+    align-self: flex-end;
+    margin-right: 150px;
+  }
+
+  .column-container-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+  }
+
+  .criptocoin-img-details {
+    
   }

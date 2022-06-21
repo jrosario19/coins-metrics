@@ -18,7 +18,7 @@ const NavBar = () => {
         </Link>
         <span className="year">{currentYear}</span>
       </div>
-      <h1 className="app-caption">Cripto Coins Statistics</h1>
+      <h1 className="app-caption">ALL CRIPTO COIN STATISTICS</h1>
       <div>
         <HiOutlineMicrophone
           className="microphone"
