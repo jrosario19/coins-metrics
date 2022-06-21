@@ -158,8 +158,7 @@ li:nth-child(11) {
 }
 
 .metadata-container {
-  align-self: flex-end;
-  margin-right: 250px;
+  align-self: center;
 }
 
 .column-container-details {
