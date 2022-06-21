@@ -26,7 +26,7 @@ const CriptoCoinsList = () => {
       </div>
       <ul className="container criptocoins-list">
         {filteredCoins.map((coin) => (
-          <li key={coin.id}>
+          <li key={coin.id} className="criptocoins-item">
             <CriptoCoin
               id={coin.id}
               name={coin.name}

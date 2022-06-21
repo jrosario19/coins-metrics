@@ -8,6 +8,11 @@ font-family: 'Titillium Web', sans-serif; */
   flex-wrap: wrap;
 }
 
+.criptocoins-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 .container-input {
   text-align: center;
   margin-bottom: 0.5em;
@@ -26,7 +31,7 @@ font-family: 'Titillium Web', sans-serif; */
 .column-container {
   display: flex;
   flex-direction: column;
-  width: 49.39vw;
+  width: 48vw;
   align-items: center;
 }
 
@@ -75,7 +80,8 @@ li:nth-child(1),
 li:nth-child(4),
 li:nth-child(5),
 li:nth-child(8),
-li:nth-child(9) {
+li:nth-child(9),
+li:nth-child(12) {
   background-color: #3d60a2;
 }
 
@@ -83,7 +89,8 @@ li:nth-child(2),
 li:nth-child(3),
 li:nth-child(6),
 li:nth-child(7),
-li:nth-child(10) {
+li:nth-child(10),
+li:nth-child(11) {
   background-color: #4268af;
 }
 
@@ -102,7 +109,7 @@ li:nth-child(10) {
 .details-name {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 2.19em;
   padding-left: 0.5em;
 }
 
