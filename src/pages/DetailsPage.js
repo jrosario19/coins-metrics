@@ -22,24 +22,24 @@ const DetailsPage = () => {
   return (
     <>
 
-      <h1>ALL CRIPTO COIN STATISTICS</h1>
-      <div className="column-container">
+      <h1 className="details-headline">CRIPTO COIN STATISTICS</h1>
+      <div className="column-container-price">
         <div className="criptocoin-container-detail">
-          <img className="criptocoin-img" src={criptocoin?.image || criptocoins[0]?.image} alt={criptocoin?.name || criptocoins[0]?.name} />
-          <div className="column-container">
+          <img className="criptocoin-img-details" src={criptocoin?.image || criptocoins[0]?.image} alt={criptocoin?.name || criptocoins[0]?.name} />
+          <div className="column-container-details">
             <div>
-              <span className="details-name">Name:</span>
-              <span className="name-data">{criptocoin?.name || criptocoins[0]?.name}</span>
+              <span className="details-name1">Name:</span>
+              <span className="name-data1">{criptocoin?.name || criptocoins[0]?.name}</span>
             </div>
 
             <div>
-              <span className="details-name">Symbol:</span>
-              <span className="name-data">{criptocoin?.symbol || criptocoins[0]?.symbol}</span>
+              <span className="details-name1">Symbol:</span>
+              <span className="name-data1">{criptocoin?.symbol || criptocoins[0]?.symbol}</span>
             </div>
 
             <div>
-              <span className="details-name">Ranking:</span>
-              <span className="name-data">{criptocoin?.market_cap_rank || criptocoins[0]?.market_cap_rank}</span>
+              <span className="details-name1">Ranking:</span>
+              <span className="name-data1">{criptocoin?.market_cap_rank || criptocoins[0]?.market_cap_rank}</span>
             </div>
           </div>
         </div>
