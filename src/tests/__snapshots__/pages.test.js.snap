@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders pages precisely Renders Detailspage  precisely 1`] = `
+Array [
+  <h1
+    className="details-headline"
+  >
+    CRIPTO COIN STATISTICS
+  </h1>,
+  <div
+    className="column-container-price"
+  >
+    <div
+      className="criptocoin-container-detail"
+    >
+      <img
+        className="criptocoin-img-details"
+      />
+      <div
+        className="column-container-details"
+      >
+        <div>
+          <span
+            className="details-name1"
+          >
+            Name:
+          </span>
+          <span
+            className="name-data1"
+          />
+        </div>
+        <div>
+          <span
+            className="details-name1"
+          >
+            Symbol:
+          </span>
+          <span
+            className="name-data1"
+          />
+        </div>
+        <div>
+          <span
+            className="details-name1"
+          >
+            Ranking:
+          </span>
+          <span
+            className="name-data1"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="metadata-container"
+    >
+      <span
+        className="details-name"
+      >
+        Price:
+      </span>
+      <span
+        className="name-data"
+      />
+      <span
+        className="details-name"
+      >
+        Change %:
+      </span>
+      <span
+        className="price-down"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Renders pages precisely Renders Homepage  precisely 1`] = `
+Array [
+  <div
+    className="container-input"
+  >
+    <input
+      className="input-field"
+      onChange={[Function]}
+      placeholder="Search Coin"
+      type="text"
+    />
+  </div>,
+  <ul
+    className="container criptocoins-list"
+  />,
+]
+`;
